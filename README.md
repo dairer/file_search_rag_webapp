@@ -77,39 +77,3 @@ The application uses Google's File Search API to implement RAG:
 ## 🔑 Environment Variables
 
 No environment variables required - API key is entered through the UI for security.
-
-## ⚠️ Error Handling
-
-The app includes intelligent error handling:
-
-- **Quota Exceeded**: Provides guidance to switch models or upgrade API plan
-- **File Processing**: Clear feedback on upload and processing status
-- **Source Mapping**: Displays original filenames instead of system-generated names
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Google for the Gemini API and File Search functionality
-- Streamlit for the excellent web framework
-- The open-source community
-
-## 📧 Contact
-
-Project Link: [https://github.com/YOUR_USERNAME/rag_website](https://github.com/YOUR_USERNAME/rag_website)
-
----
-
-Made with ❤️ using Streamlit and Google Gemini
