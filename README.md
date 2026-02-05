@@ -70,7 +70,7 @@ The application uses Google's File Search API to implement RAG:
 ## Tech Stack
 
 - **Frontend**: [Streamlit](https://streamlit.io/) - Python web framework
-- **AI Backend**: [Google Gemini](https://ai.google.dev/) - Advanced AI models
+- **AI Backend**: [Google Gemini](https://ai.google.dev/)
 - **RAG System**: [Google File Search](https://ai.google.dev/gemini-api/docs/file-search) - Automated retrieval system
 
 ## Environment Variables
