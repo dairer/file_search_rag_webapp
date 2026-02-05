@@ -2,6 +2,8 @@
 
 A Streamlit-based web application that lets users upload PDF files and ask questions using Google’s File Search–based Retrieval Augmented Generation (RAG) workflow.
 
+The web app is available online here: https://simple-research-rag.streamlit.app/
+
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.31+-red.svg)
 ![Google AI](https://img.shields.io/badge/Google-Gemini%20AI-orange.svg)
