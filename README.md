@@ -25,31 +25,7 @@ The web app is available online [here](https://simple-research-rag.streamlit.app
 
 - Python 3.8 or higher  
 - Google Gemini API key ([get one here](https://aistudio.google.com/app/apikey))
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/rag_website.git
-   cd rag_website
-
-2. **Create a virtual environment**
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the application**
-   ```bash
-   streamlit run app.py
-   ```
-
-5. **Open your browser** at `http://localhost:8501`
+- 
 
 ## Usage
 
