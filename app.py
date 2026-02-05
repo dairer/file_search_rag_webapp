@@ -80,9 +80,7 @@ with st.sidebar:
 
     st.markdown("---")
 
-# --------------------------------------------------
-# Guard rails
-# --------------------------------------------------
+# Guard rails (make sure api is provided)
 if not st.session_state.client:
     st.warning("Please enter a valid Gemini API key to continue.")
     st.stop()
@@ -91,9 +89,7 @@ if not selected_model:
     st.warning("Please select a model.")
     st.stop()
 
-# --------------------------------------------------
 # File upload
-# --------------------------------------------------
 st.header("Upload PDF Files")
 
 uploaded_files = st.file_uploader(
@@ -102,9 +98,7 @@ uploaded_files = st.file_uploader(
     accept_multiple_files=True,
 )
 
-# --------------------------------------------------
-# Process uploads
-# --------------------------------------------------
+# Process uploads (create google file store
 if uploaded_files and uploaded_files != st.session_state.uploaded_files:
     st.session_state.uploaded_files = uploaded_files
     st.session_state.file_search_store = None
@@ -161,9 +155,7 @@ if uploaded_files and uploaded_files != st.session_state.uploaded_files:
             st.error(f"File processing failed: {e}")
             st.stop()
 
-# --------------------------------------------------
 # Show uploaded files
-# --------------------------------------------------
 if st.session_state.uploaded_files:
     with st.expander("Uploaded Files"):
         for i, f in enumerate(st.session_state.uploaded_files, 1):
@@ -172,9 +164,7 @@ if st.session_state.uploaded_files:
         if st.session_state.file_search_store:
             st.write(f"**Store:** `{st.session_state.file_search_store.name}`")
 
-# --------------------------------------------------
 # Chat interface
-# --------------------------------------------------
 if st.session_state.file_search_store:
     st.header("Chat with your documents")
 
