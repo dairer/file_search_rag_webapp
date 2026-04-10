@@ -89,7 +89,7 @@ if not selected_model:
     st.warning("Please select a model.")
     st.stop()
 
-# File upload
+# File upload, gets handled by google
 st.header("Upload PDF Files")
 
 uploaded_files = st.file_uploader(
