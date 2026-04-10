@@ -42,7 +42,7 @@ The application uses Google's File Search API to implement RAG:
 1. **Upload**: PDFs are uploaded to a Google File Search Store
 2. **Index**: Google automatically indexes the document content
 3. **Query**: When you ask a question, File Search retrieves relevant passages
-4. **Generate**: Gemini generates accurate answers based on the retrieved context
+4. **Generate**: Gemini generates answers based only on the retrieved context
 5. **Cite**: The app shows which documents were used as sources
 
 ## Tech Stack
